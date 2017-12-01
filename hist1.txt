@@ -1,0 +1,38 @@
+    1  lsb_release -a
+    2  which gcc
+    3  history
+    4  export PROMPT_COMMAND='history -a'
+    5  nvcc --version
+    6  ls
+    7  cd ..
+    8  ls
+    9  cd etc/bash.bashrc
+   10  nano etc/bash.bashrc 
+   11  sudo nano etc/bash.bashrc 
+   12  sudo update-alternatives --config gcc
+   13  sudo update-alternatives --config g++
+   14  which g++
+   15  sudo apt-get install g++-4.8 g++-4.9 g++-5
+   16  which g++
+   17  sudo update-alternatives --config g++
+   18  sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 10
+   19  sudo update-alternatives --config g++
+   20  sudo update-alternatives --config gcc
+   21  gcc --version
+   22  g++ --version
+   23  nvcc --verison
+   24  nvcc --version
+   25  ls
+   26  cd usr/local/
+   27  ls
+   28  history
+   29  sudo update-alternatives --config g++
+   30  sudo update-alternatives --config gcc
+   31  sudo update-alternatives --config g++
+   32  cd ..
+   33  ls
+   34  cd home/
+   35  ls
+   36  cd vishank/
+   37  cd Downloads/
+   38  history > hist1.txt
